@@ -1,11 +1,18 @@
 body {
     font-family: Arial, sans-serif;
 }
+
 #book-list {
     margin-top: 20px;
 }
+
 .book {
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ccc;
+}
+
+
+.hide {
+    display: none;
 }
