@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bibliotheque[
+    <!ELEMENT bibliotheque (livre+)>
+    <!ELEMENT livre (titre, auteur, genre, editeur, date, synopsis)>
+    <!ELEMENT titre (#PCDATA)>
+    <!ELEMENT auteur (#PCDATA)>
+    <!ELEMENT genre (#PCDATA)>
+    <!ELEMENT editeur (#PCDATA)>
+    <!ELEMENT date (#PCDATA)>
+    <!ELEMENT synopsis (#PCDATA)>
+
+]>
+
+<bibliotheque>
+    <livre>
+        <titre>Le Crime de l'Orient-Express</titre>
+        <auteur>Agatha Christie</auteur>
+        <genre>Policier</genre>
+        <editeur>Le livre de poche</editeur>
+        <date>1934</date>
+        <synopsis>Lorem ipsum</synopsis>
+    </livre>
+    <livre>
+        <titre>Blue Lock</titre>
+        <auteur>Muneyuki Kaneshiro</auteur>
+        <genre>Sport</genre>
+        <editeur>Pika edition</editeur>
+        <date>2018</date>
+        <synopsis>Lorem ipsum</synopsis>
+    </livre>
+    <livre>
+        <titre>Jujutsu Kaisen</titre>
+        <auteur>Gege Akutami</auteur>
+        <genre>Fantastique</genre>
+        <editeur>Ki-oon</editeur>
+        <date>2018</date>
+        <synopsis>Lorem ipsum</synopsis>
+    </livre>
+    <livre>
+        <titre>Vingt Mille Lieues sous les mers</titre>
+        <auteur>Jules Verne</auteur>
+        <genre>Science-fiction</genre>
+        <editeur>Pierre-Jules Hetzel</editeur>
+        <date>1870</date>
+        <synopsis>
+            Les aventures du professeur Pierre Aronnax, de son serviteur Conseil et du harponneur Ned Land, qui sont capturés par le capitaine Nemo à bord du sous-marin Nautilus. 
+            Naviguant sous les océans, ils découvrent des mondes sous-marins fascinants et mystérieux, rencontrant des créatures incroyables 
+            et explorant des épaves légendaires.
+        </synopsis>
+    </livre>
+    <livre>
+        <titre>Le Petit Prince</titre>
+        <auteur>Antoine de Saint-Exupéry</auteur>
+        <genre>Fantastique</genre>
+        <editeur>Editions Gallimard</editeur>
+        <date>1943</date>
+        <synopsis>
+            L'histoire d'un aviateur échoué dans le désert du Sahara qui rencontre un petit prince venu d'une autre planète. 
+        </synopsis>
+    </livre>
+    <livre>
+        <titre>Harry Potter à l'école des sorciers</titre>
+        <auteur>J.K. Rowling</auteur>
+        <genre>Fantastique</genre>
+        <editeur>Bloomsbury (Royaume-Uni), Gallimard (France)</editeur>
+        <date>1997</date>
+        <synopsis>
+            Harry Potter, un jeune garçon qui découvre qu'il est un sorcier. Il est alors invité à rejoindre l'école de sorcellerie de Poudlard.
+        </synopsis>
+    </livre>
+    <livre>
+        <titre>Le fil de l'épée </titre>
+        <auteur>Charles De Gaulle</auteur>
+        <genre>Histoire</genre>
+        <editeur>Perrin</editeur>
+        <date>12 mars 2015 | 1932</date>
+        <synopsis>Le texte fondateur du gaullisme, présenté par le plus gaulliste de tous les politiques français.Publié en juillet 1932, Le Fil de l'épée est le premier livre d'envergure publié par le commandant Charles de Gaulle. Œuvre habitée, anticonformiste, politique et littéraire, elle est aussi " matrice d'un destin ". On y découvre les lignes de force d'une pensée déjà tournée vers l'action, hantée par la grandeur et la passion de la France.</synopsis>
+    </livre>
+    <livre>
+        <titre>Arsène Lupin : Arsène Lupin contre Sherlock Holmès</titre>
+        <auteur>Maurice LeBlanc</auteur>
+        <genre>Policier</genre>
+        <editeur>Hachette Romans</editeur>
+        <date>12 janvier 2022 | 1907</date>
+        <synopsis>Arsène Lupin contre Sherlock Holmès inclue les deux nouvelles :  La Dame blonde suivie de  La Lampe juive. Lorsque le cambrioleur insouciant et audacieux fait face au détective obstiné et flegmatique, la rencontre promet d’être inoubliable  ! Lupin se réjouit d’être enfin confronté à un adversaire à sa taille. Après le vol d’un inestimable diamant bleu, les deux hommes vont rivaliser d’intelligence et de stratégie. Lequel aura le dernier mot  ? </synopsis>
+    </livre>
+    <livre>
+        <titre>La Route</titre>
+        <auteur>Manu Larcenet</auteur>
+        <genre>Bande dessinée | Post-apocalyptique | Science-fiction</genre>
+        <editeur>Dargaud</editeur>
+        <date>29 mars 2024</date>
+        <synopsis>L'apocalypse a eu lieu. Le monde est dévasté, couvert de cendres et de cadavres. Parmi les survivants, un père et son fils errent sur une route, poussant un caddie rempli d'objets hétéroclites, censés les aider dans leur voyage. Sous la pluie, la neige et le froid, ils avancent vers les côtes du sud, la peur au ventre : des hordes de sauvages cannibales terrorisent ce qui reste de l'humanité. Survivront-ils à leur périple ?</synopsis>
+    </livre>
+    <livre>
+        <titre>A Game of thrones</titre>
+        <auteur>George R.R Martin</auteur>
+        <genre>Fantastique</genre>
+        <editeur>Harper Voyager</editeur>
+        <date>2014</date>
+        <synopsis>L'hiver arrive, qui sera le roi des 7 royaumes</synopsis>
+      </livre>
+      
+      <livre>
+        <titre>Sunburn</titre>
+        <auteur>Laura Lippman</auteur>
+        <genre>Thriller</genre>
+        <editeur>Faber and Faber</editeur>
+        <date>2018</date>
+        <synopsis>Quelle est le secret de cette jeune femme?</synopsis>
+      </livre>
+      
+      <livre>
+        <titre>Head over heels</titre>
+        <auteur>Jill Mansellis</auteur>
+        <genre>Romance</genre>
+        <editeur>headline review</editeur>
+        <date>2007</date>
+        <synopsis>Son amour de jeunesse vient bouleverser sa vie.</synopsis>
+      </livre>
+</bibliotheque>
