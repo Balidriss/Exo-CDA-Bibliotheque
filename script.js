@@ -3,11 +3,15 @@
 // Fonction pour charger le fichier XML avec fetch
 async function loadXMLDoc(filename) {
     try {
+        const response = await fetch(filename)
+        if (!response.ok) {
+            throw new error('Problème de chargement.')
+        }
+        const textXml = await response.text();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(textXml, "text/xml");
+        return doc;
 
-        parser = new DOMParser();
-        xml = parser.parseFromString(filename, "text/xml");
-        return xml;
-        
     } catch (error) {
         console.error(error);
     }
@@ -15,11 +19,14 @@ async function loadXMLDoc(filename) {
 
 // Fonction pour afficher les livres
 function displayBooks(xml) {
-   
-    for (let i = 0; i < books.length; i++) {
-        
 
-       
+    const bookListElement = document.getElementById("book-list");
+    books = xml.querySelectorAll("livre");
+    console.log(books);
+    for (let i = 0; i < books.length; i++) {
+        console.log(books[i].titre);
+
+
     }
 }
 
