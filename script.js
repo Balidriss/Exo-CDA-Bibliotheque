@@ -1,6 +1,12 @@
+
+
 // Fonction pour charger le fichier XML avec fetch
 async function loadXMLDoc(filename) {
     try {
+
+        parser = new DOMParser();
+        xml = parser.parseFromString(filename, "text/xml");
+        return xml;
         
     } catch (error) {
         console.error(error);
